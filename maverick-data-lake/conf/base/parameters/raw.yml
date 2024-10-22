@@ -1,0 +1,6 @@
+catalog_info_drivers_api:
+  base_url: http://ergast.com/api/f1
+  tail_url: drivers
+  min_year: 2000
+  namespace:
+    ns: "http://ergast.com/mrd/1.5"

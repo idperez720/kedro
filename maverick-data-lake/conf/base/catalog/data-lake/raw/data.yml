@@ -1,0 +1,8 @@
+drivers_data@spark:
+  type: spark.SparkDataset
+  filepath: abfss://dev@topgunmavsg.dfs.core.windows.net/raw_data.db/drivers_data
+  file_format: parquet
+  credentials: dev_adls
+  load_args:
+    sep: ','
+    header: True
